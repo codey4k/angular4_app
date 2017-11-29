@@ -1,7 +1,7 @@
 .menu {
     width : 100%;
     height : 80px;
-    background : #d32f2f;
+    background : rgba(178, 32, 32 .2);
     color : #eee;
     
     box-shadow : 0 5px 15px rgba(3, 3, 3, .2);
