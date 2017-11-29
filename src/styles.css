@@ -16,6 +16,16 @@ body::-webkit-scrollbar {
     width : 0px;
 }
 
+div,
+main,
+section {
+    display : block;
+}
+
+a {
+    text-decoration : none;
+}
+
 .wrap {
     width : 100%;
     height : 100vh;
