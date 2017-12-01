@@ -4,8 +4,10 @@ import { Component } from '@angular/core'
     selector : 'menu-bar',
     template : `
         <div class="menu">
-            <h2>{{ logo }}</h2>
-            <h2>{{ menu }}</h2>
+            <div class="menu__container">
+                <h2>{{ logo }}</h2>
+                <h2>{{ menu }}</h2>
+            </div>
         </div>
     `,
     styleUrls : ['./menu_bar.component.css']
