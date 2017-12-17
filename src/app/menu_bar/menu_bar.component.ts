@@ -6,7 +6,7 @@ import { Component } from '@angular/core'
         <div class="menu">
             <div class="menu__container">
                 <h2>{{ logo }}</h2>
-                <h2>{{ menu }}</h2>
+                <div class="menu__icon"></div>
             </div>
         </div>
     `,
