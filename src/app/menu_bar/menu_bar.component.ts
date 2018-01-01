@@ -7,6 +7,11 @@ import { Component } from '@angular/core'
             <div class="menu__container">
                 <h2>{{ logo }}</h2>
                 <div class="menu__icon"></div>
+                <ul class="menu__list">
+                    <li class="menu__item">Home</li>
+                    <li class="menu__item">Contact</li>
+                    <li class="menu__item">About us</li>
+                </ul>
             </div>
         </div>
     `,
@@ -33,4 +38,7 @@ export class MenuBar {
     public logo = 'CodeY4k'
     public menu = 'menu'
     
+    // const list = ['Home', 'Contact', 'About us']
+    
+    // let lista = list.map(i => <li class="menu__item">#{i}</li>)
 }
