@@ -27,10 +27,16 @@ export class MenuBar {
                     menu = <HTMLElement>document.querySelector('.menu')
                 
                 if(scroll >= 200) {
-                    menu.style.background = 'rgba(178, 32, 32,.8)'
+                    Object.assign(menu.style,{
+                        height : '60px',
+                        background : 'rgba(178, 32, 32, .8)'
+                    })
                 }
                 else{
-                    menu.style.background = 'transparent'
+                    Object.assign(menu.style, {
+                        height : '80px',
+                        background : 'transparent'
+                    })
                 }
             })
         })
@@ -38,7 +44,7 @@ export class MenuBar {
     public logo = 'CodeY4k'
     public menu = 'menu'
     
-    // const list = ['Home', 'Contact', 'About us']
+    // public list = ['Home', 'Contact', 'About us']
     
-    // let lista = list.map(i => <li class="menu__item">#{i}</li>)
+    // public lista = list.map(i => '<li class="menu__item">#{i}</li>')
 }
