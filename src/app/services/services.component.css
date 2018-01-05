@@ -23,6 +23,10 @@
 .services__left-2,
 .services__right-1,
 .services__right-2{
+    color : #eee;
+    display : flex;
+    align-items : center;
+    justify-content : center;
     height : 250px;
 }
 .services__left-1 {
