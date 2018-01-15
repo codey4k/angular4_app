@@ -47,6 +47,7 @@
 .menu__list {
     position : relative;
     display : none;
+    
 }
 
 @media screen and (min-width : 600px) {
@@ -58,6 +59,7 @@
 .menu__item {
     padding : 1em;
     list-style : none;
+    cursor : pointer;
 }
 
 @media screen and (min-width : 600px) {
