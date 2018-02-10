@@ -2,6 +2,7 @@
 * {
     margin : 0;
     padding : 0;
+    outline : none;
     box-sizing : border-box;
 }
 
@@ -15,19 +16,27 @@ body::-webkit-scrollbar {
     width : 0px;
 }
 
+/* --------  Reset styles ----------*/
 div,
 img,
 main,
+header,
+footer,
 section {
     display : block;
 }
 
-li {
+li,
+ol,
+ul {
     list-style : none;
 }
+
 a {
     text-decoration : none;
 }
+
+/*--------------------------------- */
 
 .wrap {
     width : 100%;
