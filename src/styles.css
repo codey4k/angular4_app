@@ -2,7 +2,9 @@
 * {
     margin : 0;
     padding : 0;
+    border : none;
     outline : none;
+    transition : all .7s;
     box-sizing : border-box;
 }
 
@@ -18,6 +20,7 @@ body::-webkit-scrollbar {
 
 /* --------  Reset styles ----------*/
 div,
+nav,
 img,
 main,
 header,
@@ -33,6 +36,7 @@ ul {
 }
 
 a {
+    background : transparent;
     text-decoration : none;
 }
 
