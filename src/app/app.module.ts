@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MenuBar } from './menu_bar/menu_bar.component'
 import { Header } from './header/header.component'
 import { Services } from './services/services.component'
+// import { Footer } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { Services } from './services/services.component'
     MenuBar,
     Header,
     Services
+    // Footer,
   ],
   imports: [
     BrowserModule
