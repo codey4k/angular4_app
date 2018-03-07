@@ -16,5 +16,5 @@
 }
 
 .footer__copyright {
-    color : red;
+    color : var(--theme);
 }

@@ -1,3 +1,7 @@
+:root {
+    --theme : #b22020;
+}
+
 /* You can add global styles to this file, and also import other style files */
 * {
     margin : 0;
@@ -36,7 +40,7 @@ ul {
 }
 
 a {
-    background : transparent;
+    color : transparent;
     text-decoration : none;
 }
 
