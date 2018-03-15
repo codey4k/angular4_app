@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-    selector: 'services',
+    selector: 'services-component',
     template : `
         <section class="services">
             <div class="services__container">
