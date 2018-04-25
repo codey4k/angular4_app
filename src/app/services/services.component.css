@@ -32,19 +32,6 @@
     background : #444;
     flex-direction : column;
 }
-.services__left-1 {
-    /*background : green;*/
-}
-.services__left-2 {
-    /*background : tomato;*/
-}
-
-.services__right-1 {
-    /*background : pink;*/
-}
-.services__right-2 {
-    /*background : gold;*/
-}
 
 .services__img {
     position : absolute;
